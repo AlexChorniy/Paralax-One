@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "Bold";
+  src: url(../fonts/ProximaNova-Bold.ttf); }
+@font-face {
+  font-family: "Light";
+  src: url(../fonts/ProximaNova-Light.ttf); }
+@font-face {
+  font-family: "Regular";
+  src: url(../fonts/ProximaNova-Regular.ttf); }
+@font-face {
+  font-family: "Semibold";
+  src: url(../fonts/ProximaNova-Semibold.ttf); }
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Regular", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #7e7e7e; }
+
+.pimg1 {
+  background-image: url(../img/figury_forma_linii_tochki_92772_1366x768.jpg);
+  min-height: 100%; }
+
+.pimg2 {
+  background-image: url(../img/formy_figurki_svetlyy_88072_1366x768.jpg);
+  min-height: 400px; }
+
+.pimg3 {
+  background-image: url(../img/futbol_myach_dvizhenie_voda_abstrakciya_79989_1366x768.jpg);
+  min-height: 400px; }
+
+.pimg1,
+.pimg2,
+.pimg3 {
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*
+      fixed = parallax
+      scroll = normal
+  */
+  background-attachment: fixed; }
+
+.section {
+  text-align: center;
+  padding: 50px 80px; }
+
+.section-light {
+  background-color: #f4f4f4;
+  color: #7e7e7e; }
+
+.section-dark {
+  background-color: #282e34;
+  color: #ddd; }
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase; }
+
+.ptext .border {
+  background-color: #111;
+  color: #fff;
+  padding: 20px; }
+
+.ptext .border.trans {
+  background-color: transparent; }
+
+@media (max-width: 568px) {
+  .pimg1, .pimg2, .pimg3 {
+    background-attachment: scroll; } }
+
+/*# sourceMappingURL=main.css.map */
